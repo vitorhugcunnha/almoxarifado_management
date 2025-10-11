@@ -1,0 +1,14 @@
+C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\bin\Debug\net9.0\AmoxarifadoConsole.exe
+C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\bin\Debug\net9.0\AmoxarifadoConsole.deps.json
+C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\bin\Debug\net9.0\AmoxarifadoConsole.runtimeconfig.json
+C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\bin\Debug\net9.0\AmoxarifadoConsole.dll
+C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\bin\Debug\net9.0\AmoxarifadoConsole.pdb
+C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\obj\Debug\net9.0\AmoxarifadoConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\obj\Debug\net9.0\AmoxarifadoConsole.AssemblyInfoInputs.cache
+C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\obj\Debug\net9.0\AmoxarifadoConsole.AssemblyInfo.cs
+C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\obj\Debug\net9.0\AmoxarifadoConsole.csproj.CoreCompileInputs.cache
+C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\obj\Debug\net9.0\AmoxarifadoConsole.dll
+C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\obj\Debug\net9.0\refint\AmoxarifadoConsole.dll
+C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\obj\Debug\net9.0\AmoxarifadoConsole.pdb
+C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\obj\Debug\net9.0\AmoxarifadoConsole.genruntimeconfig.cache
+C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\obj\Debug\net9.0\ref\AmoxarifadoConsole.dll
