@@ -12,3 +12,4 @@ C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoCon
 C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\obj\Debug\net9.0\AmoxarifadoConsole.pdb
 C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\obj\Debug\net9.0\AmoxarifadoConsole.genruntimeconfig.cache
 C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\obj\Debug\net9.0\ref\AmoxarifadoConsole.dll
+C:\Users\VITOR HUGO\Desktop\PastaDoVitor\Repositorios\Amoxarifado\AmoxarifadoConsole\obj\Debug\net9.0\AmoxarifadoConsole.sourcelink.json
