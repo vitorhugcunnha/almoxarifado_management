@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AmoxarifadoConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7880ce89993d9d0d7e71e1950a76fd88d2a0c6d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3160924f0b4a656852f02bebac08b8afd319a900")]
 [assembly: System.Reflection.AssemblyProductAttribute("AmoxarifadoConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AmoxarifadoConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

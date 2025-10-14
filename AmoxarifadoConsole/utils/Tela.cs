@@ -55,10 +55,14 @@ public class Tela
             Console.Write("║");
         }
 
-        Console.SetCursorPosition(ci, li); Console.Write("╔");
-        Console.SetCursorPosition(cf, li); Console.Write("╗");
-        Console.SetCursorPosition(ci, lf); Console.Write("╚");
-        Console.SetCursorPosition(cf, lf); Console.Write("╝");
+        Console.SetCursorPosition(ci, li); 
+        Console.Write("╔");
+        Console.SetCursorPosition(cf, li); 
+        Console.Write("╗");
+        Console.SetCursorPosition(ci, lf); 
+        Console.Write("╚");
+        Console.SetCursorPosition(cf, lf); 
+        Console.Write("╝");
 
         if (!string.IsNullOrEmpty(titulo))
         {
