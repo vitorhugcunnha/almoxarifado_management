@@ -1,24 +1,23 @@
 ﻿Tela tela = new Tela(50, 10);
+autenticacaoUsuario autenticacao = new autenticacaoUsuario();
 
-string opc = "";
 List<string> opcoes = new List<string>();
 opcoes.Add("1 - Login");
 opcoes.Add("2 - Sair");
 
-while (true)
-{
-    Console.Clear();
-    tela.MontarMolduraCentralizada("Login");
-    Console.ReadKey();
-    switch (opc)
+    bool autenticado = false;
+    while (!autenticado)
     {
-        case "1":
-            break;
-        case "2":
-            break;
+        string usuario, senha;
+        tela.TelaLogin(out usuario, out senha);
+        autenticado = autenticacao.Autenticar(usuario, senha);
+        if (!autenticado)
+        {
+            Console.Clear();
+            tela.MontarMolduraCentralizada("Usuário ou senha incorretos!");
+            Console.ReadKey();
+        }
     }
-    if (opc == "2")
-    {
-        return;
-    }
-}
+Console.Clear();
+tela.MontarMolduraCentralizada("Login realizado com sucesso!");
+Console.ReadKey();

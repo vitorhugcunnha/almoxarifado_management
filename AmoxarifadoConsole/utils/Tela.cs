@@ -55,13 +55,13 @@ public class Tela
             Console.Write("║");
         }
 
-        Console.SetCursorPosition(ci, li); 
+        Console.SetCursorPosition(ci, li);
         Console.Write("╔");
-        Console.SetCursorPosition(cf, li); 
+        Console.SetCursorPosition(cf, li);
         Console.Write("╗");
-        Console.SetCursorPosition(ci, lf); 
+        Console.SetCursorPosition(ci, lf);
         Console.Write("╚");
-        Console.SetCursorPosition(cf, lf); 
+        Console.SetCursorPosition(cf, lf);
         Console.Write("╝");
 
         if (!string.IsNullOrEmpty(titulo))
@@ -71,4 +71,37 @@ public class Tela
             Console.Write(titulo);
         }
     }
+    public void TelaLogin(out string usuario, out string senha)
+    {
+        Console.Clear();
+        MontarMolduraCentralizada("Login - Sistema de Almoxarifado");
+
+        int col = (Console.WindowWidth / 2) - 15;
+        int lin = (Console.WindowHeight / 2) - 1;
+
+        Console.SetCursorPosition(col, lin);
+        Console.Write("Usuário: ");
+        usuario = Console.ReadLine()?.Trim() ?? "";
+
+        Console.SetCursorPosition(col, lin + 2);
+        Console.Write("Senha: ");
+        senha = "";
+
+        ConsoleKeyInfo tecla;
+        do
+        {
+            tecla = Console.ReadKey(true);
+            if (tecla.Key != ConsoleKey.Backspace && tecla.Key != ConsoleKey.Enter)
+            {
+                senha += tecla.KeyChar;
+                Console.Write("*");
+            }
+            else if (tecla.Key == ConsoleKey.Backspace && senha.Length > 0)
+            {
+                senha = senha.Substring(0, senha.Length - 1);
+                Console.Write("\b \b");
+            }
+        } while (tecla.Key != ConsoleKey.Enter);
+    }
+
 }
