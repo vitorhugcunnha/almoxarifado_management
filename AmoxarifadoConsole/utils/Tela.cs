@@ -1,5 +1,6 @@
 using System.ComponentModel;
 using System.Security.Cryptography;
+using Mysqlx.Resultset;
 using Org.BouncyCastle.Pqc.Crypto.Ntru;
 
 public class Tela
@@ -23,6 +24,25 @@ public class Tela
         this.altura = altura;
         this.colunaInicial = coluna;
         this.linhaInicial = linha;
+    }
+
+    public string MolduraMenu()
+    {
+        Console.Clear();
+        MontarMolduraCentralizada("Menu de Acesso");
+        int col = (Console.WindowWidth / 2) - 15;
+        int lin = (Console.WindowHeight / 2) - 1;
+
+
+        Console.SetCursorPosition(col, lin);
+        Console.WriteLine("1 - Login");
+        Console.SetCursorPosition(col, lin + 1);
+        Console.WriteLine("2 - Sair");
+        Console.SetCursorPosition(col, lin + 3);
+        Console.Write("Opcao: ");
+        string opcao = Console.ReadLine();
+
+        return opcao;
     }
 
     public void MontarMolduraCentralizada(string titulo = "")
@@ -80,7 +100,7 @@ public class Tela
         int lin = (Console.WindowHeight / 2) - 1;
 
         Console.SetCursorPosition(col, lin);
-        Console.Write("Usuário: ");
+        Console.Write("Usuario: ");
         usuario = Console.ReadLine()?.Trim() ?? "";
 
         Console.SetCursorPosition(col, lin + 2);
